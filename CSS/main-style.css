@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body
+{
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	color: #666;
+	font-size: 14px
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 24px;
+    position: relative;
+}
+.nav li a{
+    color:black;
+    text-decoration: none;
+}
+.nav li a:hover{
+    text-decoration: underline;
+}
+.sub-menu{
+    background-color: rgba(255, 251, 247, 0.205);
+    color: white;
+    position: absolute;
+    left: 0;
+    width: 150px;
+    padding: 12px;
+    display: none;
+	 position: absolute;
+}
+.sub-menu li{
+    margin: 0;
+}
+.nav li:hover .sub-menu{
+    display: block;
+}
+section { margin: 80px 0}
+.giacu{ 
+	color:#666;
+	text-decoration: line-through
+}
+.giamoi{
+	color: tomato;
+	text-decoration: none; 
+	font-size: 1.5rem
+}
+.btn-xanh{ 
+	background: #1CDDD1;
+	color: #fff;
+	text-decoration:none;
+	padding: 5px 20px ;
+	border-radius: 10px
+}
+.btn-xanh:hover
+{
+	background:tomato
+}
+.p-chia2cot
+{ 
+	column-count:2 ; 
+}
+.containerr{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+/*    background: #fff;*/
+    border-radius: 15px;
+/*    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);*/
+}
+form{height: 80%;
+    width: 150px;
+    margin: 20px auto;
+}
+hr{
+    border-top: 2px solid tomato;
+}
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px;
+	margin: 8px;
+}
+input{
+    width: 100%;
+    margin: 8px;
+    border: none;
+    outline: none;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: tomato;
+	margin: 8px;
+}
+.footer-menu a
+{ 
+	display: block;
+	text-decoration: none;
+	color: #333; 
+	margin: 50px 0}
+.footer-menu a:hover { color: tomato}
+footer{ background: #eee}
+.banquyen{ 
+	background: #666; 
+	color: #fff; 
+	padding: 10px ;
+	text-align: center
+}
+
+
+
+
+
+
